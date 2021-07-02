@@ -7,3 +7,43 @@
 div {
   border: 1px solid red;
 }
+
+/* Google logo */
+.logo-container {
+  display: flex;
+  display: block;
+  justify-content: center;
+}
+
+.google-logo {
+  display: flex;
+  justify-content: center;
+}
+
+/* Search bar */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+  height: 45px;
+  width: 650px;
+  border-radius: 100px / 100px;
+}
+
+.search-icon {
+  margin-top: 3px;
+  margin-left: 13px;
+}
+
+.mic-icon {
+  margin-top: 3px;
+  margin-right: 15px;
+}
