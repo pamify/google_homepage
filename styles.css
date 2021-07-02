@@ -11,10 +11,6 @@ a {
   
 }
 
-div {
-  border: 1px solid red;
-}
-
 /* Nav */
 .navbar-container a {
   color: black;
@@ -63,6 +59,8 @@ div {
   display: flex;
   display: block;
   justify-content: center;
+  margin-top: 175px;
+  margin-bottom: 25px;
 }
 
 .google-logo {
@@ -98,11 +96,30 @@ div {
   margin-right: 15px;
 }
 
+/* Buttons */
+.search-bar-btns {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #fcfbfb;
+  color: #3c4043;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Roboto, arial, sans-serif;
+  line-height: 27px;
+  margin: 11px 5px;
+  padding: 5px 16px;
+  cursor: pointer;
+}
+
 /* Footer */
 .footer-container {
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 55px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -126,6 +143,14 @@ div {
   text-decoration: underline;
 }
 
+.footer-left {
+  margin-left: 10px;
+}
+
+.footer-right {
+  margin-right: 10px;
+}
+
 .leaf-container {
   width: 250px;
   height: 20px;
@@ -140,4 +165,5 @@ div {
 
 .leaf-desc {
   position: absolute;
+  bottom: -8px;
 }
