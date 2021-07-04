@@ -72,6 +72,14 @@ a {
 .search-bar-container {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  height: 45px;
+  width: 550px;
 }
 
 .search-bar {
@@ -86,9 +94,14 @@ a {
   border-radius: 100px / 100px;
 }
 
+.search-bar:hover {
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
 .search-icon {
   margin-top: 3px;
   margin-left: 13px;
+  
 }
 
 .mic-icon {
